@@ -37,18 +37,23 @@ p {
 
 .board {
     display: inline-block;
-    height: 50%;
+    min-height: 50%;
     width: 50%;
+    background-color: #355e3b;
 }
 
 .card {
     float: left;
     margin: 8%;
-    height: 200px;
+    height: 217px;
     width: 150px;
     background-color: #FFFF00;
     border: 1px solid #000000;
     border-radius: 10px;
+}
+
+.card img {
+    width: inherit;
 }
 
 /* Footer */
@@ -63,6 +68,10 @@ footer {
 }
 
 /* Other */
+
+.hidden {
+    visibility: hidden;
+}
 
 .clearfix:after {
     visibility: hidden;
