@@ -1,3 +1,74 @@
-/* This is a multi-line
-comment. Add your CSS code
-from Unit 1 - 5 below  */
+/* CSS for Memory Game */
+
+body {
+    text-align: center;
+}
+
+/* Navigation */
+
+nav {
+    background-color: #808080;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    float: left;
+    padding: 35px;
+    background-color: #ffbf00;
+    color: #ffffff;
+}
+
+nav a:hover {
+    background-color: #ee5f3c;
+}
+
+
+h1 {
+    color: #008080;
+}
+h2 {
+    color: #FFD700;
+}
+
+p {
+    text-align: center;
+}
+
+.board {
+    display: inline-block;
+    height: 50%;
+    width: 50%;
+}
+
+.card {
+    float: left;
+    margin: 8%;
+    height: 200px;
+    width: 150px;
+    background-color: #FFFF00;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #808080;
+    text-align: center;
+}
+
+#name {
+    color: #FF0000;
+}
+
+/* Other */
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+}

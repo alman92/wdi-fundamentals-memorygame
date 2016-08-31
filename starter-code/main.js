@@ -1,1 +1,6 @@
-console.log("JS file is connected to HTML! Woo!")
+/* JS for Memory Game */
+
+var cardOne = "king";
+var cardTwo = "king";
+var cardThree = "queen";
+var cardFour = "queen";
