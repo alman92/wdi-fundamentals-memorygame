@@ -2,7 +2,10 @@
 
 body {
     text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
 }
+
+
 
 /* Navigation */
 
@@ -24,6 +27,9 @@ nav a:hover {
 }
 
 
+
+/* Main */
+
 h1 {
     color: #008080;
 }
@@ -35,15 +41,63 @@ p {
     text-align: center;
 }
 
+#scoreboard {
+    display: inline-table;
+    background-color: #c0c0c0;
+    height: 80px;
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#scoreboard div {
+    display: table-cell;
+    height: 60px;
+    margin: 10px;
+}
+
+#display {
+    float: left;
+    width: 50%;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+
+#restartButton {
+    float: right;
+    width: 30%;
+    background-color: #ed5565;
+    border-bottom: 5px solid #da4453;
+    border-radius: 10px;
+}
+
+#restartButton:hover{
+    background-color: #ee6674;
+}
+
+#restartButton:active {
+    background-color: #da4453;
+}
+
+#restartButton span {
+    display: block;
+    padding: 18px;
+    color: #ffffff;
+}
+
 .board {
     display: inline-block;
-    min-height: 50%;
-    width: 50%;
+    height: 70%;
+    width: 70%;
+    margin-bottom: 100px;
     background-color: #355e3b;
+    border-radius: 20px;
 }
 
 .card {
-    float: left;
+    display: inline-block;
+    vertical-align: top;
+    /*float: left;*/
     margin: 8%;
     height: 217px;
     width: 150px;
@@ -56,6 +110,8 @@ p {
     width: inherit;
 }
 
+
+
 /* Footer */
 
 footer {
@@ -66,6 +122,8 @@ footer {
 #name {
     color: #FF0000;
 }
+
+
 
 /* Other */
 
